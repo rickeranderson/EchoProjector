@@ -37,6 +37,7 @@ import time
 import urllib
 import uuid
 import logging
+from pypjlink import Projector
 
 # This XML is the minimum needed to define one of our virtual switches
 # to the Amazon Echo
