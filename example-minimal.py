@@ -30,9 +30,9 @@ class device_handler(debounce_handler):
     def act(self, client_address, state, name):
         print("State", state, "on ", name, "from client @", client_address)
         if state == False:
-            os.system('python3 projector_off.py')
+            os.system('python3 /home/rick/Documents/EchoProjector/projector_off.py')
         if state == True:
-            os.system('python3 projector_on.py')
+            os.system('python3 /home/rick/Documents/EchoProjector/projector_on.py')
         return True
 
 if __name__ == "__main__":
