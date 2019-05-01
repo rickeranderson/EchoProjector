@@ -1,6 +1,6 @@
 # EchoProjector
 
-This prjetc was built using mostly example code from both fauxmo and pypjlink
+This project was built using mostly example code from both fauxmo and pypjlink
 
 ## Design
 
